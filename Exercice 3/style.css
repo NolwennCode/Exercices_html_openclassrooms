@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'fancypantsregular';
+  src: url('../fonts/FancyPants-webfont.eot');
+  src: url('../fonts/FancyPants-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/FancyPants-webfont.woff') format('woff'),
+       url('../fonts/FancyPants-webfont.ttf') format('truetype'),
+       url('../fonts/FancyPants-webfont.svg#fancypantsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'sf_cartoonist_handregular';
+  src: url('../fonts/SF_Cartoonist_Hand-webfont.eot');
+  src: url('../fonts/SF_Cartoonist_Hand-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/SF_Cartoonist_Hand-webfont.woff') format('woff'),
+       url('../fonts/SF_Cartoonist_Hand-webfont.ttf') format('truetype'),
+       url('../fonts/SF_Cartoonist_Hand-webfont.svg#sf_cartoonist_handregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  color: #3986b6;
+  font-family: 'sf_cartoonist_handregular', 'Trebuchet MS', 'Comic sans MS', sans-serif;
+
+}
+#bloc_page {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.element:nth-child(1) {
+  background: url(../images/sakura_min.png) repeat center, #f1cfc6;
+  width: 100%;
+  flex-direction: row
+  flex-wrap: nowrap;
+  flex: 1
+}
+.element:nth-child(2) {
+flex-direction: row;
+flex-wrap: nowrap;
+flex: 10;
+}
+
+h1 {
+  font-family: 'fancypantsregular', Impact, 'Arial Black', sans-serif;
+  font-size: 1.9em;
+  text-align: center;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+header h1 {
+  font-size: 4em;
+}
+h2 {
+font-size: 3em;
+text-align: center;
+font-weight: bold;
+}
+header h1, header h2 {
+  margin: 0;
+}
+header p {
+margin: 0;
+align-self: flex-end;
+}
+
+p {
+  text-align: justify;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+section {
+  width: 100%;
+  margin: 1%;
+}
+footer {
+  background: url('../images/separation.png') repeat-x top;
+  margin: 2% 5% 0 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
